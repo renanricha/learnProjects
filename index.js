@@ -54,12 +54,14 @@ for (let i = 0; i < qtdPerguntas; i++) {
     console.log(questoes[i].pergunta)
     let resp = entradaDados.question('Resposta: ')
     if (resp == questoes[i].resposta) {
-        console.log("Resposta correta!")
+        console.log(`Resposta correta!
+        `)
         pontuacao += 1
     }
     else
     {
-        console.log("Resposta errada")
+        console.log(`Resposta errada
+        `)
     }
 }
 
